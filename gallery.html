@@ -60,6 +60,7 @@
   <script>
   (function(){
     var D=window.SITE_DATA||{}; var all=[];
+    (D.gallery||[]).forEach(function(p){ if(p) all.push(p); });
     (D.parents||[]).forEach(function(d){ (d.photos||[]).forEach(function(p){ all.push(p); }); });
     (D.reviews||[]).forEach(function(r){ if(r.photo) all.push(r.photo); });
     var seen={}, uniq=[]; all.forEach(function(u){ if(!seen[u]){ seen[u]=1; uniq.push(u); } });

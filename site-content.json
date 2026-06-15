@@ -1,0 +1,224 @@
+{
+  "stats": {
+    "available": 0,
+    "upcoming": 1,
+    "families": 15,
+    "waitlist": 10
+  },
+  "parents": [
+    {
+      "name": "Joy",
+      "role": "Dam",
+      "breed": "Miniature Dachshund",
+      "coat": "Long-haired",
+      "color": "Dapple",
+      "reg": "AKC registered",
+      "description": "Gets along with everyone, young and old. She loves to play — but mostly she loves to be held.",
+      "photos": [
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/ejd3gqoq04z2cfz12cph8ilvlceq?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/ek15s2kqskla545p4cm9ubti7n3d?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/hlsv477tf0qjo3jnt4n97qb6c9kv?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/7bkj3pk3qfc8cx3slyai3pabqqyr?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/8bfl2ad9ukjkd8tm4ccgn0v7ra15?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/xyjrq3uew4p36lf3okciqk1waq2i?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/vbj5oxzj3h8yii7h2e150pig11m5?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/kmtrq0tenilkurzpfe0o6cllqyil?type=dog&resize=1000x"
+      ]
+    },
+    {
+      "name": "Jasper",
+      "role": "Sire",
+      "breed": "Miniature Dachshund",
+      "coat": "Wirehaired",
+      "color": "Silver, tan & black",
+      "reg": "AKC & CKC registered",
+      "description": "A soft, fluffy wire coat and an endlessly playful spirit — Jasper is our sweet, spirited sire.",
+      "photos": [
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/wzp6adyfa5bwq9dxifatmwdtmocn?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/cfkf8otkbs0m1ub76l9mus3acdp8?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/dvisz55owom9neoliczojyjx085g?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/nphyiiuloyfdu2lxhzp7tdf6xa6x?type=dog&resize=1000x"
+      ]
+    },
+    {
+      "name": "Jolene",
+      "role": "Dam",
+      "breed": "Miniature Dachshund",
+      "coat": "Long-haired",
+      "color": "Dapple",
+      "reg": "CKC registered",
+      "description": "A lively, affectionate girl who's always ready for fun. Full of energy and curiosity, she loves to run, play, and explore every corner she can find — then, when the excitement winds down, she's a total sweetheart who snuggles close and shares her love with everyone around her.",
+      "photos": [
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/ueoltq4l6pwoi3z67vr8pwcx95z0?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/029ktttqw9qju9lx3rxo077poasw?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/1twvr4wbzz9w61o58ndcow8bd85p?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/6m54q1kff746awqvecwvnfebaq21?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/gi735tj8h33wa4kcasw57rj05ulz?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/n3puojhkma4rut00q4dihaw4nr49?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/qpe5kzwzikrwhrum3wmo0x0q86im?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/r4aswycko5q82gr586mxrd3h2q2v?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/y9ktcfd9jh3pg43iqay0gup7yvjx?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/yco6fge0gcqbzvfmyegkyr8s83vh?type=dog&resize=1000x"
+      ]
+    },
+    {
+      "name": "Jaxson",
+      "role": "Sire",
+      "breed": "Miniature Dachshund",
+      "coat": "Long-haired",
+      "color": "Black and tan",
+      "reg": "CKC & AKC registered",
+      "description": "Our littlest sire — small but mighty, he keeps right up with the whole crew. Jaxson loves to play, and loves his special attention even more.",
+      "photos": [
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/znrrn4czffck2ujg71iwco89nmgh?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/t2gekjhoo5gho6vvwnsncpta48xz?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/kdgz31x8liepdzzohtfliwa52hp5?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/c9wg7ae3vdw80cjwu56bw4fdbbdl?type=dog&resize=1000x"
+      ]
+    },
+    {
+      "name": "Jazzy",
+      "role": "Dam",
+      "breed": "Miniature Dachshund",
+      "coat": "Long-haired",
+      "color": "Red",
+      "reg": "CKC registered",
+      "description": "A very gentle, loving little girl with a calm, easygoing temperament. She gets along beautifully with all the other dogs.",
+      "photos": [
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/7y1zcxtdofbugj21lor3hm1tm5gx?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/gamhvf6bm7d34yg8aqcyhmnciypa?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/hz4rru4bqncrrl64dnk6v0ewqckn?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/s23qafv4gc4b5igoc75igg6m3y49?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/no0shkret54qwk1mnqwgahv8ehxp?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/oaj8s67ifckju4aj8z87s7ubc8yw?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/kvlbo3mo6fwz3l68o5m3euflt77t?type=dog&resize=1000x"
+      ]
+    },
+    {
+      "name": "Jaylynn",
+      "role": "Dam",
+      "breed": "Miniature Dachshund",
+      "coat": "Wirehaired",
+      "color": "Piebald",
+      "reg": "AKC registered",
+      "description": "High-spirited and full of go — she loves to run and play. Wonderful with other dogs and adores playing with children. A very good-natured girl.",
+      "photos": [
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/1hocif7midxxyvg7abvriq3zmzgi?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/c2t9c9a5viojrbkby4rby8gjqqr6?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/ks6fmyweptiagmmmrm3gsy3thzcz?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/aqt7ognjlp4ix16qhwdsim4obe4u?type=dog&resize=1000x"
+      ]
+    },
+    {
+      "name": "Jesse",
+      "role": "Dam",
+      "breed": "Miniature Dachshund",
+      "coat": "Smooth",
+      "color": "Dapple",
+      "reg": "CKC registered",
+      "description": "A wonderfully loveable, affectionate girl — all heart, and happiest when she's close to her people.",
+      "photos": [
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/s4a3bqm3qln9fvt3k9nwvjj0ie6g?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/1fxqoj0owhhd3g5pbwfyz34fa3cx?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/5iqqba9plqd1iy5sz52hjel0whjb?type=dog&resize=1000x"
+      ]
+    },
+    {
+      "name": "Minnie",
+      "role": "Dam",
+      "breed": "Miniature Dachshund",
+      "coat": "Long-haired",
+      "color": "Red",
+      "reg": "AKC registered",
+      "description": "A wonderfully calm girl who loves nothing more than being held and loved on.",
+      "photos": [
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/h0nl54cwmh4rrr3f5tfbu28ysqhe?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/ur2warn0m1vm2iht1je56pkehaxk?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/2e76oooexvajsoackb6z0sm0zqqu?type=dog&resize=1000x",
+        "https://tf-prod-bunny-pullzone-1.gooddog.com/images/3b3sd31kys2dprt0doy4khe9qp7n?type=dog&resize=1000x"
+      ]
+    }
+  ],
+  "puppies": [],
+  "reviews": [
+    {
+      "name": "Meghan O.",
+      "date": "June 2026",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/2ris73x8s55bpxo6izkgfvimatqp?type=dog&resize=900x",
+      "text": "Karen was extremely responsive and professional through the process of getting our sweet Micki (aka Teddy)! She sent regular updates which we loved and answered any questions we had. Micki is well socialized and the sweetest pup with a perfect bill of health! You can tell how much Karen and her family love and care for her pups, and I would recommend her to anyone looking for a furry friend in a heartbeat!"
+    },
+    {
+      "name": "Olivia D.",
+      "date": "May 2026",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/6qpzimdj0qnb7p03y047kwsrh6mw?type=dog&resize=900x",
+      "text": "We had such a wonderful experience getting our puppy Zoey from Karen. From the very beginning, she was kind, knowledgeable, and clearly cared so much about her dogs and puppies. Zoey came to us healthy, happy, well-socialized, and already so loved. You can truly tell she puts a lot of time, care, and attention into raising her puppies the right way. We would absolutely recommend Teeny Tiny Puppy Tails to anyone looking for a responsible and caring breeder!"
+    },
+    {
+      "name": "Annie R.",
+      "date": "May 2026",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/psvax35clfpsofljz25yulqnakh9?type=dog&resize=900x",
+      "text": "Loved my experience with Teeny Tiny Puppy Tails. Karen and her husband were fabulous. They always replied to any question I had and kept me updated on our little precious baby. Our little Gus is doing great. He's so smart, so sassy and playful. He wears me out lol. Looking for a dachshund? Please get in touch with Teeny Tiny Puppy Tails. They are the best."
+    },
+    {
+      "name": "Elizabeth L.",
+      "date": "May 2026",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/onz0rq7g1lg5cadmj28o8rlnzgpw?type=dog&resize=900x",
+      "text": "Karen answered all my questions before I got Remi aka Boots! She FaceTimed me and gave me regular updates on our baby. 10/10 recommend. She met me halfway as well, which was a huge bonus since I was 3 hrs away."
+    },
+    {
+      "name": "Olivia T.",
+      "date": "May 2026",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/l7k93xrhupx7y2xdpshc5a8t43oe?type=dog&resize=900x",
+      "text": "Karen was super responsive and sweet! She answered all my questions quickly, sent pictures regularly, and gave us the cutest goodie bag full of everything we needed to help our sweet pup settle into her new home. I'm so thankful for Karen and her family!"
+    },
+    {
+      "name": "Jennifer W.",
+      "date": "Feb. 2026",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/a5m94vcpluy7s0z64nbzfi70xbjk?type=dog&resize=900x",
+      "text": "Karen made adopting Piper Ann amazing -- always responding to every question, sending pictures, even FaceTiming us with Piper every week. She was so honest with us throughout. Piper is our 3rd dachshund in less than 2 years and she fits right in. Took her to her vet appointment and she is very healthy. We love her! Thank you Karen."
+    },
+    {
+      "name": "Nick L.",
+      "date": "Mar. 2026",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/1jsh78otyflre98ws2vup7uge5ia?type=dog&resize=900x",
+      "text": "Karen was very personable and responded quickly to questions. She stayed in touch, answered everything I asked, and gave me regular updates on the puppy's progress."
+    },
+    {
+      "name": "Elke N.",
+      "date": "May 2025",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/3l7rjiop3vfl5llanyom7sm25ocu?type=dog&resize=900x",
+      "text": "Our experience adopting with Karen was wonderful! She let us video call with our little Cosmo right away, answered all of our many questions, and was very knowledgeable. She was flexible with the whole process, met us halfway for pickup, and supported us afterward by checking in on how everything was going. We highly recommend her!"
+    },
+    {
+      "name": "Melanie C.",
+      "date": "Oct. 2024",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/36vz6xha8e30xpu7fdcoipn3hpov?type=dog&resize=900x",
+      "text": "Karen is so responsive and accommodating. I knew I had a good breeder with my first encounter. She kept us updated with pics and messages while we awaited our bundle of joy. My vet told me she knew a good breeder when she saw all that Karen had included, and that my new puppy was very healthy with very good lineage. Not only is she a reputable breeder, she's as nice a person as you'll ever meet. Felt like family."
+    },
+    {
+      "name": "Shellie C.",
+      "date": "Oct. 2024",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/cnombu17rapotki4mu7hhiqx9fwt?type=dog&resize=900x",
+      "text": "Karen was great -- she kept me updated on my puppy, Echo, and took great care of the puppies. You can tell she cares about her dogs. The whole process was easy and I absolutely love Echo. I highly recommend Karen."
+    },
+    {
+      "name": "Kate V.",
+      "date": "Oct. 2024",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/yfif6o2ixya1s8v0qp9xd6lad25g?type=dog&resize=900x",
+      "text": "Karen was so great to work with and we are so happy with our sweet puppy! She was so responsive and even met us halfway to avoid the long car ride."
+    },
+    {
+      "name": "Tyler M.",
+      "date": "Sept. 2024",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/epph09ukba8w3ortshx4trjt3qxf?type=dog&resize=900x",
+      "text": "Karen was very responsive and caring, and especially wanted to hear back from us about the puppy we got from them. He is very sweet and loves having another dog to play with."
+    },
+    {
+      "name": "Leslie G.",
+      "date": "Oct. 2024",
+      "photo": "https://tf-prod-bunny-pullzone-1.gooddog.com/images/sb93hr6q6hac52w46hkvzxto5261?type=dog&resize=900x",
+      "text": "Karen was so responsive and knowledgeable about the breed. She always answered any questions or concerns I had. You can tell she really cares about her dogs. Everything went smoothly. I've had my puppy about a month now and still keep in touch and send updates. I highly recommend Karen, and if I ever get another puppy I would go to her again. Thank you Karen!"
+    }
+  ],
+  "gallery": []
+}
