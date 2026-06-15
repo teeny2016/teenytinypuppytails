@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teeny Tiny Puppy Tails | Miniature Dachshunds in Elizabethtown, KY</title>
+<meta name="description" content="A small, family-run breeder of healthy, well-loved miniature dachshunds in Elizabethtown, Kentucky. See available puppies and apply through Good Dog.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 140 70" fill="currentColor" aria-hidden="true"><path d="M22 26 Q10 22 6 10 Q14 18 26 30 Z"/><rect x="22" y="22" width="82" height="24" rx="12"/><circle cx="108" cy="27" r="13"/><rect x="116" y="25" width="18" height="11" rx="5.5"/><ellipse cx="103" cy="34" rx="6.5" ry="13"/><rect x="30" y="44" width="8" height="15" rx="4"/><rect x="48" y="44" width="8" height="15" rx="4"/><rect x="72" y="44" width="8" height="15" rx="4"/><rect x="92" y="44" width="8" height="15" rx="4"/></svg>
+      <span class="name"><span class="small">Elizabethtown &middot; Kentucky</span>Teeny Tiny Puppy Tails</span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" onclick="var m=document.getElementById('menu');var o=m.classList.toggle('open');this.setAttribute('aria-expanded',o)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <ul class="nav-links" id="menu">
+      <li><a href="about.html">About</a></li>
+      <li><a href="parents.html">Parents</a></li>
+      <li><a href="litters.html">Litters</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="testimonials.html">Reviews</a></li>
+      <li><a href="health-guarantee.html">Health</a></li>
+      <li><a href="contract.html">Contract</a></li>
+      <li><a class="btn btn-primary" href="waitlist.html">Join the waitlist</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow rise">Miniature dachshunds &middot; Raised in our Kentucky home</p>
+        <h1 class="rise d1">Tiny paws,<br><span class="accent">enormous tales.</span></h1>
+        <p class="lead rise d1">We raise a small number of healthy, beautifully socialized miniature dachshunds right in our family home in Elizabethtown. You won't miss a moment of your puppy growing up &mdash; we share photos, videos, even FaceTime.</p>
+        <div class="hero-cta rise d2">
+          <a class="btn btn-primary btn-lg" href="https://www.gooddog.com/breeders/teeny-tiny-puppy-tails-kentucky" target="_blank" rel="noopener">See available puppies on Good Dog</a>
+          <a class="btn btn-ghost btn-lg" href="waitlist.html">Join the waitlist</a>
+        </div>
+      </div>
+      <div class="rise d2">
+        <div class="card-photo" style="aspect-ratio:4/5;border-radius:var(--radius);box-shadow:var(--shadow);background-image:url('https://tf-prod-bunny-pullzone-1.gooddog.com/images/ejd3gqoq04z2cfz12cph8ilvlceq?type=dog&resize=1000x')"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="trust-bar">
+  <div class="inner">
+    <span>Health guaranteed</span>
+    <span>Vet checked</span>
+    <span>Family raised</span>
+    <span>Raised in-home</span>
+  </div>
+</section>
+
+<main>
+  <section class="section-sm">
+    <div class="container">
+      <div class="stats">
+        <div class="stat"><div class="num" id="stat-available">0</div><div class="label">Available litters</div></div>
+        <div class="stat"><div class="num" id="stat-upcoming">0</div><div class="label">Upcoming litters</div></div>
+        <div class="stat"><div class="num" id="stat-families">0</div><div class="label">Happy families</div></div>
+        <div class="stat"><div class="num" id="stat-waitlist">0</div><div class="label">Families on waitlist</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="head-row">
+        <div>
+          <p class="eyebrow">What's wagging</p>
+          <h2>Recent litters &amp; little faces</h2>
+        </div>
+        <a class="link" href="gallery.html">See the full gallery &rarr;</a>
+      </div>
+      <div class="photo-grid" id="photo-grid"></div>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"><span class="line"></span><svg viewBox="0 0 140 70" fill="currentColor"><path d="M22 26 Q10 22 6 10 Q14 18 26 30 Z"/><rect x="22" y="22" width="82" height="24" rx="12"/><circle cx="108" cy="27" r="13"/><rect x="116" y="25" width="18" height="11" rx="5.5"/><ellipse cx="103" cy="34" rx="6.5" ry="13"/><rect x="30" y="44" width="8" height="15" rx="4"/><rect x="48" y="44" width="8" height="15" rx="4"/><rect x="72" y="44" width="8" height="15" rx="4"/><rect x="92" y="44" width="8" height="15" rx="4"/></svg><span class="line"></span></div>
+
+  <section class="section">
+    <div class="container">
+      <div class="head-row">
+        <div>
+          <p class="eyebrow">Our dams &amp; sires</p>
+          <h2>Parents who pass on more than coats</h2>
+        </div>
+        <a class="link" href="parents.html">Meet all our parents &rarr;</a>
+      </div>
+      <div class="grid grid-3" id="parents-teaser"></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">What we promise you</p>
+        <h2>A healthy start, backed for life</h2>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+          <h3>Vet-checked &amp; healthy</h3>
+          <p>Examined by our vet and home with first vaccines and a deworming schedule.</p>
+        </div>
+        <div class="feature">
+          <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-9-9a5 5 0 019-3 5 5 0 019 3c-2 4.5-9 9-9 9z"/></svg></span>
+          <h3>Written health guarantee</h3>
+          <p>A one-year guarantee against congenital defects, in writing.</p>
+        </div>
+        <div class="feature">
+          <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg></span>
+          <h3>Raised in our home</h3>
+          <p>Born underfoot and socialized with children and other dogs from day one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="subscribe-box">
+        <p class="eyebrow">Stay in the loop</p>
+        <h2>Get notified when new litters arrive</h2>
+        <p class="lead" style="margin:0 auto 22px">Join our list and we'll email you the moment a new litter is planned or puppies become available.</p>
+        <form name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you" class="subscribe-form">
+          <input type="hidden" name="form-name" value="subscribe">
+          <p class="hp"><label>Leave empty: <input name="bot-field"></label></p>
+          <input name="email" type="email" required placeholder="you@email.com" aria-label="Your email">
+          <button class="btn btn-primary" type="submit">Notify me</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="band cta-band">
+    <div class="container">
+      <p class="eyebrow" style="color:var(--tan)">Available now &amp; coming soon</p>
+      <h2>Meet our current puppies on Good Dog</h2>
+      <p class="lead">Our available puppies, pricing, and the application are all kept up to date on our verified Good Dog profile &mdash; the safest way to reserve a Teeny Tiny puppy.</p>
+      <a class="btn btn-primary btn-lg" href="https://www.gooddog.com/breeders/teeny-tiny-puppy-tails-kentucky" target="_blank" rel="noopener">View our Good Dog profile</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <svg viewBox="0 0 140 70" fill="currentColor" aria-hidden="true"><path d="M22 26 Q10 22 6 10 Q14 18 26 30 Z"/><rect x="22" y="22" width="82" height="24" rx="12"/><circle cx="108" cy="27" r="13"/><rect x="116" y="25" width="18" height="11" rx="5.5"/><ellipse cx="103" cy="34" rx="6.5" ry="13"/><rect x="30" y="44" width="8" height="15" rx="4"/><rect x="48" y="44" width="8" height="15" rx="4"/><rect x="72" y="44" width="8" height="15" rx="4"/><rect x="92" y="44" width="8" height="15" rx="4"/></svg>
+      <p>Loving, health-focused miniature dachshunds &mdash; long-haired, smooth, and wirehaired &mdash; raised in our family home in Elizabethtown, Kentucky.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="parents.html">Our parents</a></li>
+        <li><a href="litters.html">Upcoming litters</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="testimonials.html">Reviews</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Puppy promise</h4>
+      <ul>
+        <li><a href="waitlist.html">Join the waitlist</a></li>
+        <li><a href="health-guarantee.html">Health guarantee</a></li>
+        <li><a href="contract.html">Puppy contract</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>On Good Dog</h4>
+      <p style="font-size:0.92rem;color:#B7A393;margin:0 0 14px">Applications, available puppies, deposits, and verified health testing all live on our Good Dog profile.</p>
+      <a class="btn btn-primary" href="https://www.gooddog.com/breeders/teeny-tiny-puppy-tails-kentucky" target="_blank" rel="noopener">View our Good Dog profile</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; 2026 Teeny Tiny Puppy Tails &middot; Elizabethtown, Kentucky</span>
+    <span><a href="mailto:teenytinypuppytails@gmail.com">teenytinypuppytails@gmail.com</a></span>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  var D = window.SITE_DATA || {};
+  var s = D.stats || {};
+  function set(id,v){ var el=document.getElementById(id); if(el && v!=null) el.textContent=v; }
+  set('stat-available', s.available); set('stat-upcoming', s.upcoming);
+  set('stat-families', s.families); set('stat-waitlist', s.waitlist);
+
+  var all=[]; (D.parents||[]).forEach(function(d){ (d.photos||[]).forEach(function(p){ all.push(p); }); });
+  var pick=[], step=Math.max(1, Math.floor(all.length/6));
+  for(var i=0;i<all.length && pick.length<6;i+=step){ pick.push(all[i]); }
+  var pg=document.getElementById('photo-grid');
+  if(pg) pg.innerHTML = pick.map(function(u){ return '<div class="tile" style="background-image:url(\''+u+'\')"></div>'; }).join('');
+
+  var pt=document.getElementById('parents-teaser');
+  if(pt) pt.innerHTML = (D.parents||[]).slice(0,3).map(function(d){
+    var cover=(d.photos&&d.photos[0])||'';
+    var sub=[d.color,d.reg].filter(Boolean).join(' &middot; ');
+    return '<article class="card"><div class="card-photo" style="background-image:url(\''+cover+'\')"></div>'+
+      '<div class="card-body"><span class="tag">'+d.role+(d.coat?' &middot; '+d.coat:'')+'</span>'+
+      '<h3>'+d.name+'</h3>'+(sub?'<p class="muted" style="font-weight:700;margin:0">'+sub+'</p>':'')+'</div></article>';
+  }).join('');
+})();
+</script>
+
+</body>
+</html>
