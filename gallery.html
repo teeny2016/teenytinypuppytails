@@ -59,12 +59,28 @@
   <script src="data.js"></script>
   <script>
   (function(){
+    var CLOUD='dkegzeyqe', TAG='gallery';
+    var g=document.getElementById('gallery-grid'); if(!g) return;
     var D=window.SITE_DATA||{}; var all=[];
+    (D.gallery||[]).forEach(function(p){ if(p) all.push(p); });
     (D.parents||[]).forEach(function(d){ (d.photos||[]).forEach(function(p){ all.push(p); }); });
     (D.reviews||[]).forEach(function(r){ if(r.photo) all.push(r.photo); });
     var seen={}, uniq=[]; all.forEach(function(u){ if(!seen[u]){ seen[u]=1; uniq.push(u); } });
-    var g=document.getElementById('gallery-grid');
-    if(g) g.innerHTML = uniq.map(function(u){ return '<div class="tile" style="background-image:url(\''+u+'\')"></div>'; }).join('');
+    function imgTile(u){ return '<div class="tile" style="background-image:url(\''+u+'\')"></div>'; }
+    g.innerHTML = uniq.map(imgTile).join('');
+    var base='https://res.cloudinary.com/'+CLOUD;
+    fetch(base+'/image/list/'+TAG+'.json').then(function(res){ return res.ok?res.json():{resources:[]}; }).then(function(d){
+      var t=(d.resources||[]).map(function(r){ return imgTile(base+'/image/upload/f_auto,q_auto,w_900/'+r.public_id+'.'+r.format); }).join('');
+      if(t) g.insertAdjacentHTML('afterbegin', t);
+    }).catch(function(){});
+    fetch(base+'/video/list/'+TAG+'.json').then(function(res){ return res.ok?res.json():{resources:[]}; }).then(function(d){
+      var t=(d.resources||[]).map(function(r){
+        var vid=base+'/video/upload/f_auto,q_auto/'+r.public_id+'.mp4';
+        var pos=base+'/video/upload/so_0,f_auto,q_auto,w_900/'+r.public_id+'.jpg';
+        return '<div class="tile" style="position:relative;overflow:hidden;padding:0"><video src="'+vid+'" poster="'+pos+'" controls preload="metadata" playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video></div>';
+      }).join('');
+      if(t) g.insertAdjacentHTML('afterbegin', t);
+    }).catch(function(){});
   })();
   </script>
 
